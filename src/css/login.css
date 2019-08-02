@@ -1,0 +1,167 @@
+
+.sign {
+    position: relative;
+    height: 100%;
+    min-height: 750px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #f1f1f1;
+}
+.sign .logo {
+    position: absolute;
+    top: 56px;
+    margin-left: 50px;
+}
+.sign .logo img {
+    width: 100px;
+}
+.sign .main {
+    width: 400px;
+    margin: 60px auto 0;
+    padding: 50px 50px 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    vertical-align: middle;
+    display: inline-block;
+}
+.sign .title {
+    margin: 0 auto 50px;
+    padding: 10px;
+    font-weight: 400;
+    color: #969696;
+    font-size: 18px;
+
+}
+.sign .title a{
+    padding: 10px;
+    color: #969696;
+}
+.sign .title .active {
+    font-weight: 700;
+    color: #ea6f5a;
+    border-bottom: 2px solid #ea6f5a;
+}
+.sign .title b {
+    padding: 10px;
+}
+.sign .title a:hover {
+    border-bottom: 2px solid #ea6f5a;
+}
+.sign form {
+    margin-bottom: 30px;
+}
+.sign form .input-prepend {
+    position: relative;
+    width: 100%;
+}
+.sign form .input-prepend input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 0;
+    padding: 4px 12px 4px 35px;
+    border: 1px solid #c8c8c8;
+    border-radius: 0 0 4px 4px;
+    background-color: hsla(0,0%,71%,.1);
+    vertical-align: middle;
+}
+.sign form .restyle input {
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
+}
+.sign form .input-prepend i {
+    position: absolute;
+    top: 14px;
+    left: 10px;
+    font-size: 18px;
+    color: #969696;
+}
+.sign form .login-q{
+    width: 100%
+}
+.sign .login-q .remember-btn {
+    float: left;
+    margin: 15px 0;
+}
+.sign .remember-btn span {
+    margin-left: 5px;
+    font-size: 15px;
+    color: #969696;
+    vertical-align: top;
+}
+.sign .forget-btn {
+    float: right;
+    margin: 15px 0;
+    font-size: 14px;
+    color: #999;
+}
+.sign .forget-btn:hover {
+    color: #333;
+}
+.sign .sign-in-btn {
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    padding: 9px 18px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+    background: #3194d0;
+}
+.sign .sign-in-btn:hover{
+    background: #187cb7;
+}
+.sign .more-sign {
+    margin-top: 50px;
+}
+.sign .more-sign h6 {
+    position: relative;
+    margin: 0 0 10px;
+    font-size: 12px;
+    color: #b5b5b5;
+}
+
+.sign .more-sign h6:after, .sign .more-sign h6:before {
+    content: "";
+    border-top: 1px solid #b5b5b5;
+
+    position: absolute;
+    width: 60px;
+    top: 9px;
+}
+.sign .more-sign h6:before {
+    left: 30px;
+}
+.sign .more-sign h6:after {
+    right: 30px;
+}
+.sign .more-sign ul {
+    margin-bottom: 10px;
+}
+.sign .more-sign ul li {
+    margin: 0 5px;
+    display: inline-block;
+}
+.sign .more-sign ul a {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+}
+.sign .more-sign ul i {
+    font-size: 28px;
+}
+.sign .more-sign .icon-weibo {
+    color: #e05244;
+}
+.sign .more-sign .icon-weixin {
+    color: #00bb29;
+}
+.sign .more-sign .icon-qq {
+    color: #498ad5;
+}
+.sign .more-sign .icon-qita {
+    color: #999;
+}

@@ -1,0 +1,342 @@
+.jianshu-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    min-height: 50px;
+    min-width: 1100px;
+    height: 56px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-width: 0 0 1px;
+    background-color: #fff;
+    border-color: #f0f0f0;
+}
+
+.jianshu-nav .width-limit {
+    min-width: 768px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.jianshu-nav .width-limit .logo {
+    float: left;
+    height: 56px;
+    padding: 0;
+}
+
+.jianshu-nav .width-limit .logo img {
+    height: 100%;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+nav .write-btn {
+    float: right;
+    width: 100px;
+    height: 40px;
+    line-height: 24px;
+    margin: 8px 12px 0;
+    border-radius: 20px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #ea6f5a;
+}
+
+nav .icon-combinedshapecopy2 {
+    margin-right: 3px;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+nav .sign-up {
+    float: right;
+    width: 80px;
+    height: 38px;
+    line-height: 24px;
+    margin: 9px 5px 0 15px;
+    border: 1px solid rgba(236, 97, 73, .7);
+    border-radius: 20px;
+    font-size: 15px;
+    color: #ea6f5a;
+    background-color: transparent;
+}
+
+nav .sign-up,
+nav .sign-up:hover {
+    transition: .1s ease-in;
+    -webkit-transition: .1s ease-in;
+    -moz-transition: .1s ease-in;
+    -o-transition: .1s ease-in;
+    -ms-transition: .1s ease-in;
+
+}
+
+nav .sign-up:hover {
+    color: #ec6149;
+    border-color: #ec6149;
+    background-color: rgba(236, 97, 73, .05);
+}
+
+nav .log-in {
+    float: right;
+    margin: 11px 6px 0 10px;
+    font-size: 15px;
+}
+
+nav .log-in,
+nav .log-in:hover {
+    color: #969696;
+}
+
+.nav-test {
+    float: right;
+    height: 55px;
+    padding: 15px 0px;
+    margin: 0 12px;
+}
+
+.nav-test a {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-test a img {
+    height: 25px;
+}
+
+nav .style-mode-btn {
+    float: right;
+    line-height: 20px;
+    padding: 17px 10px;
+    font-size: 24px;
+    color: #969696;
+}
+
+nav .style-mode-btn .icon-zitifont5 {
+    font-size: 30px;
+}
+
+nav .menu-icon {
+    display: inherit;
+    margin-right: 5px;
+    float: left;
+    font-size: 20px;
+}
+
+.jianshu-nav-m {
+    width: 960px;
+    height: 58px;
+    margin: 0 auto;
+
+}
+
+.jianshu-nav-m ul {
+    float: left;
+}
+
+.jianshu-nav-m ul li {
+    margin-right: 10px;
+    float: left;
+}
+
+.jianshu-nav-m ul li>a {
+    display: block;
+    /* height: 56px; */
+    line-height: 26px;
+    padding: 15px;
+
+
+}
+
+.jianshu-nav-m .active a {
+    color: #ea6f5a;
+}
+.jianshu-nav-m .tab .app-download-btn{
+    color: #333;
+}
+.jianshu-nav-m .tab .app-download-btn:hover {
+    background-color: #f5f5f5;
+    color: #333
+}
+
+.jianshu-nav-m .search {
+    padding-left: 15px;
+    height: 56px;
+}
+
+.jianshu-nav-m .search form {
+    position: relative;
+    padding-top: 9px;
+}
+
+.jianshu-nav-m .search form .search-input {
+
+    width: 240px;
+    padding: 0 40px 0 20px;
+    height: 38px;
+    font-size: 14px;
+    border: 1px solid #eee;
+    border-radius: 40px;
+    background: #eee;
+    transition: width .5s;
+    -moz-transition: width .5s;
+    -webkit-transition: width .5s;
+    -o-transition: width .5s;
+    transition-delay: .1s;
+    -moz-transition-delay: .1s;
+    -webkit-transition-delay: .1s;
+    -o-transition-delay: .1s;
+}
+
+.search form .search-input:focus {
+    width: 320px;
+}
+
+nav form .search-btn {
+    position: absolute;
+    top: 13px;
+    right: 5px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px !important;
+    padding: 0 !important;
+    color: #969696 !important;
+    text-align: center;
+}
+nav form .search-btn .icon-fangdajing{
+    font-size: 20px;
+}
+nav form .search-input:focus+.search-btn {
+    background-color: #969696;
+    border-radius: 50%;
+    color: #fff!important;
+}
+#navbar-search-tips {
+    z-index: 9999;
+    margin-top: 9px;
+    width: 250px;
+    left: 0;
+    top: 100%;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 4px;
+    padding: 20px 20px 10px;
+    border-bottom: 1px solid #f0f0f0;
+    transition: all .5s;
+}
+
+#navbar-search-tips, #navbar-search-tips:before {
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0,0,0,.2);
+}
+#navbar-search-tips:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 12px solid transparent;
+    border-bottom-color: #fff;
+    left: 20px;
+    bottom: 99%;
+}
+nav form .search-input:focus~#navbar-search-tips {
+    visibility: visible;
+    opacity: 1;
+    
+}
+.show-navbar-search-tips{
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+#navbar-search-tips .search-trending-header {
+    height: 20px;
+    margin-bottom: 10px;
+}
+#navbar-search-tips .search-trending-header .search-trending-l {
+    float: left;
+    font-size: 14px;
+    color: #969696;
+}
+#navbar-search-tips .search-trending-header .search-trending-r {
+    float: right;
+    font-size: 13px;
+    color: #969696;
+    background-color: transparent;
+    border-width: 0;
+    cursor: pointer;
+
+}
+#navbar-search-tips .search-trending-header .search-trending-r .icon-shuaxin{
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 4px;
+    transition: all .5s;
+}
+
+.search-trending-tag-wrap{
+    padding-top: 8px;
+    font-size: 0;
+}
+.search-trending-tag-wrap li{
+    float: left;
+    margin-bottom: 10px;
+
+}
+#navbar-search-tips .search-trending-tag-wrap li a {
+    padding: 2px 6px;
+    font-size: 12px;
+    color: #787878;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+#navbar-search-tips .search-trending-tag-wrap li a:hover {
+    color: #333;
+    border-color: #b4b4b4;
+}
+.toTop {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 1040;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+}
+
+.toTop .toTopIcon {
+    display: block;
+    cursor: pointer;
+    color: #333;
+    transition: all .5s;
+}
+
+.toTop .toTopIcon:hover {
+    background-color: hsla(0, 0%, 71%, .1);
+    transition: .1s ease-in;
+}

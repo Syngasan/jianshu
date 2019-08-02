@@ -1,0 +1,808 @@
+.note {
+    position: relative;
+    padding-top: 56px;
+}
+
+.note .note-fixed-ad {
+    position: fixed;
+    top: 80px;
+    right: 50%;
+    margin-right: -560px;
+    width: 180px;
+}
+
+.note-fixed-ad-t {
+    margin-bottom: 15px;
+}
+
+.note-fixed-ad-t a {
+    display: block;
+    width: 100%;
+    height: 260px;
+    background-image: url(//cdn2.jianshu.io/assets/web/web-note-ad-side-banner-22096669b4c4b91c3b9266894e951aef.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+
+}
+
+.note-fixed-ad-t a .close {
+    display: block;
+    width: 20px;
+    height: 20px;
+    color: #999;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-weight: 200;
+    font-size: 26px;
+    opacity: .2;
+    line-height: 1;
+}
+
+.note-fixed-ad-b {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    border: 1px solid #e8eae9;
+}
+
+.note-fixed-ad-b a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.note-fixed-ad-b a img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.note-fixed-ad-b .ad-badge {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+    font-size: 12px;
+    padding: 2px 5px 0 6px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    cursor: pointer;
+}
+
+.note .post {
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width: 620px;
+
+
+}
+
+.note .post .article .title {
+    word-break: break-word !important;
+    word-break: break-all;
+    margin: 20px 0 0;
+    font-family: -apple-system, SF UI Display, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.note .post .article .author {
+    margin: 30px 0 40px;
+}
+
+.note .post .article .author .avatar {
+    width: 48px;
+    height: 48px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
+
+.note .post .article .author .info {
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 8px;
+}
+
+.note .post .article .author .name {
+    margin-right: 8px;
+    font-size: 16px;
+    vertical-align: middle;
+
+}
+
+.note .post .article .author .name a {
+    color: #333;
+}
+
+.note .post .article .author .info img.badge-icon {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 0;
+    border: 0;
+}
+
+.note .post .article .follow {
+    display: inline-block;
+    padding: 0 7px 0 5px;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 40px;
+    color: #fff;
+    background-color: #42c02e;
+    border-color: #42c02e;
+    white-space: nowrap;
+    user-select: none;
+}
+
+.follow span {
+    margin-left: 2px;
+    display: inline;
+}
+
+.note .post .article .author .meta {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #969696;
+}
+
+.note .post .article .author .meta span {
+    padding-right: 5px;
+}
+
+.note .post .article .show-content {
+    color: #2f2f2f;
+    word-break: break-word !important;
+    word-break: break-all;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.note .post .article .show-content h1,
+.note .post .article .show-content h2,
+.note .post .article .show-content h3,
+.note .post .article .show-content h4,
+.note .post .article .show-content h5,
+.note .post .article .show-content h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #2f2f2f;
+    line-height: 1.7;
+    text-rendering: optimizelegibility;
+}
+
+.note .post .article .show-content p {
+    margin: 0 0 25px;
+}
+
+.note .post .article .show-content h4 {
+    font-size: 20px;
+}
+
+.note .post .article .show-content .image-package {
+    padding-bottom: 25px;
+    width: 700px;
+    margin-left: -40px;
+    text-align: center;
+}
+
+.note .post .article .show-content .image-package .image-container {
+    z-index: 100;
+    position: relative;
+    transition: background-color .1s linear;
+    margin: 0 auto;
+}
+.note .post .article .show-content img {
+    display: block;
+    margin: 25px auto;
+
+    max-width: 100%;
+}
+.note .post .article .show-content .image-package .image-container img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.note .post .article .show-content .image-package .image-caption {
+    min-width: 20%;
+    max-width: 80%;
+    min-height: 22px;
+    width: 140px;
+    padding: 10px;
+    margin: 0 auto;
+    border-bottom: 1px solid #d9d9d9;
+    font-size: 14px;
+    color: #969696;
+    line-height: 1.7;
+}
+
+.note .post .support-author {
+    min-height: 144px;
+    padding: 20px 0;
+    text-align: center;
+    clear: both;
+}
+
+.note .post .support-author p {
+    padding: 0 30px;
+    margin-bottom: 20px;
+    min-height: 24px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #969696;
+}
+
+.note .post .support-author .btn-pay {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 8px 25px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ea6f5a;
+    border-radius: 20px;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.note .post .support-author .supporter {
+    height: 50px;
+}
+
+.note .post .show-foot {
+    margin-bottom: 30px;
+}
+
+.note .post .show-foot .notebook {
+    font-size: 12px;
+    color: #c8c8c8;
+}
+
+.note .post .show-foot .copyright {
+    float: right;
+    margin-top: 5px;
+    font-size: 12px;
+    line-height: 1.7;
+    color: #c8c8c8;
+}
+
+.note .post .show-foot .modal-wrap {
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px;
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+.note .post .show-foot .modal-wrap>a {
+    color: #c8c8c8;
+}
+
+.note .post .follow-detail {
+    padding: 20px;
+    background-color: hsla(0, 0%, 71%, .1);
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.note .post .follow-detail .info {
+    min-height: 47px;
+}
+
+.note .post .follow-detail .avatar {
+    float: left;
+    margin-right: 10px;
+    width: 48px;
+    height: 48px;
+}
+
+.note .post .follow-detail .follow {
+    float: right;
+    margin-top: 4px;
+    padding: 8px 0;
+    width: 100px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 40px;
+    color: #fff;
+    background-color: #42c02e;
+}
+
+.note .post .follow-detail .info .title {
+    margin-right: 3px;
+    font-size: 17px;
+    line-height: 1.8;
+    vertical-align: middle;
+    color: #333;
+}
+
+.note .post .follow-detail .info img.badge-icon {
+    margin-right: 3px;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.note .post .follow-detail .info p {
+    margin-bottom: 0;
+    color: #969696;
+}
+
+.note .post .meta-bottom {
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.note .post .meta-bottom .like {
+    display: inline-block;
+}
+
+.note .post .meta-bottom .like .like-group {
+    position: relative;
+    padding: 13px 0 15px 0;
+
+    border: 1px solid #EA6F5A;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.like .like-group:hover {
+    background-color: rgba(236, 97, 73, 0.05);
+}
+
+.like-group .icon-02 {
+    position: absolute;
+    top: 12px;
+    left: 24px;
+    font-size: 20px;
+    color: #EA6F5A;
+}
+
+.like-group span {
+    display: inline-block;
+    text-align: center;
+    color: #EA6F5A;
+    font-size: 19px;
+}
+
+.like-group span:nth-child(1) {
+    padding-left: 20px;
+    width: 123px;
+}
+
+.like-group span:nth-child(2) {
+    width: 64px;
+    border-left: 1px solid #EA6F5A;
+    margin-left: -15px;
+}
+
+.note .post .meta-bottom .share-group {
+    float: right;
+    margin-top: 6px;
+}
+
+.note .post .meta-bottom .share-group .share-circle {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    border-radius: 50%;
+    vertical-align: middle;
+    display: inline-block;
+
+    line-height: 50px;
+}
+
+.note .post .meta-bottom .share-group .share-circle i {
+    font-size: 24px;
+}
+
+.note .post .meta-bottom .share-group .share-circle .icon-weixin {
+    color: #00bb29;
+    line-height: 1;
+}
+
+.note .post .meta-bottom .share-group .share-circle:hover {
+    background-color: hsla(0, 0%, 71%, .1);
+}
+
+.note .post .meta-bottom .share-group .share-circle .icon-weibo {
+    color: #e05244;
+}
+
+.note .post .meta-bottom .share-group .share-circle .icon-tupian {
+    color: #9b9b9b;
+}
+
+.note .post .meta-bottom .share-group .more-share {
+    display: inline-block;
+    margin-left: 10px;
+    height: 50px;
+    width: auto;
+    padding: 4px 18px;
+    font-size: 14px;
+    color: #9b9b9b;
+    line-height: 40px;
+    border-radius: 50px;
+    border: 1px solid #dcdcdc;
+}
+
+.note .post .meta-bottom .share-group .more-share:hover {
+    background-color: hsla(0, 0%, 71%, .1);
+}
+
+.note .post #web-note-ad-1,
+.note .post #web-note-ad-2 {
+    display: block;
+    width: 100%;
+}
+
+.note .post #web-note-ad-1 img,
+.note .post #web-note-ad-2 img {
+    width: 100%;
+}
+
+.note .post .comment-list {
+    padding-top: 20px;
+}
+
+.note .post .comment-list .new-comment {
+    position: relative;
+    margin-left: 48px;
+}
+
+.note .post .comment-list .new-comment .avatar {
+    position: absolute;
+    left: -48px;
+}
+
+.note .post .comment-list .avatar {
+    margin-right: 10px;
+    width: 38px;
+    height: 38px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
+
+.note .post .comment-list .new-comment .sign-container,
+.note .post .comment-list .new-comment textarea {
+    padding: 10px 15px;
+    width: 100%;
+    height: 80px;
+    font-size: 13px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    background-color: hsla(0, 0%, 71%, .1);
+    resize: none;
+    display: inline-block;
+    vertical-align: top;
+    outline-style: none;
+}
+
+.note .post .comment-list .new-comment .sign-container {
+    text-align: center;
+}
+
+.note .post .comment-list .new-comment .btn-sign {
+    display: inline-block;
+    width: 78px;
+    margin: 11px 10px 0 0;
+    padding: 7px 18px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    color: #fff !important;
+    background-color: #3194d0;
+    outline: none;
+}
+
+.note .post .comment-list .normal-comment-list {
+    margin-top: 30px;
+}
+
+.note .post .comment-list .top-title {
+    padding-bottom: 20px;
+    font-size: 17px;
+    font-weight: 700;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.note .post .comment-list .top-title span {
+    vertical-align: middle;
+}
+
+.note .post .comment-list .normal-comment-list .top-title .author-only {
+    margin-left: 10px;
+    padding: 4px 8px;
+    font-size: 12px;
+    color: #969696;
+    border: 1px solid #e1e1e1;
+    border-radius: 12px;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.note .post .comment-list .normal-comment-list .top-title .pull-right a {
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #969696;
+    display: inline-block;
+}
+
+.note .post .comment-list .normal-comment-list .top-title .pull-right .active {
+    color: #2f2f2f;
+}
+
+.note .post .comment-list .comment {
+    padding: 20px 0 30px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.note .post .comment-list .author {
+    margin-bottom: 15px;
+}
+
+.v-tooltip-container {
+    position: relative;
+}
+
+.v-tooltip-container,
+.v-tooltip-content {
+    display: inline-block;
+}
+
+.note .post .comment-list .info {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.note .post .comment-list .name {
+    font-size: 15px;
+    color: #333;
+}
+
+.note .post .comment-list p {
+    margin: 10px 0;
+    line-height: 1.5;
+    font-size: 16px;
+    word-break: break-word !important;
+    word-break: break-all;
+}
+
+.note .post .comment-list .tool-group a {
+    margin-right: 10px;
+    color: #969696;
+    display: inline-block;
+
+}
+
+.note .post .comment-list .tool-group a i {
+    margin-right: 6px;
+}
+
+.note-bottom {
+    min-height: 213px;
+    background-color: #f5f5f5;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.note-bottom .main {
+    margin: 0 auto;
+    padding: 0 0 30px 0;
+    width: 620px;
+}
+
+.note-bottom .main .find-more {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.note-bottom .main .find-more .title {
+    padding-left: 8px;
+    border-left: 3px solid #EA6F5A;
+    line-height: 1;
+    font-size: 15px;
+}
+
+.note-bottom .main .find-more .include-collection {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.note-bottom .main .find-more .include-collection .item {
+    display: inline-block;
+    margin: 0 12px 12px 0;
+    min-height: 32px;
+    background-color: white;
+    border: 1px solid #DCDCDC;
+    border-radius: 4px;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.note-bottom .main .find-more .include-collection .item img {
+    width: 32px;
+    height: 32px;
+}
+
+.note-bottom .main .find-more .include-collection .item .name {
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #2f2f2f;
+}
+
+.note-bottom .main .recommend-note {
+    width: 100%;
+}
+
+.note-bottom .main .recommend-note .re-title {
+    margin-bottom: 20px;
+    padding-left: 8px;
+    border-left: 3px solid #EA6F5A;
+    line-height: 1;
+    font-size: 15px;
+}
+
+.note-bottom .main .recommend-note .more {
+    float: right;
+    font-size: 14px;
+    color: #A0A0A0;
+}
+
+.note-bottom .main .footer-ad {
+    position: relative;
+    margin-bottom: 25px;
+    padding: 0 0 25px 0;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.note-bottom .main .footer-ad .ad-title {
+    margin-bottom: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
+    color: #333333;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.note-bottom .main .footer-ad .ad-title:hover {
+    text-decoration: underline;
+}
+
+.note-bottom .main .footer-ad .ad-des {
+    font-size: 13px;
+    color: #999;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-height: 24px;
+    max-height: 48px;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    white-space: normal;
+}
+
+.note-bottom .main .footer-ad .ad-badge {
+    margin-top: 50px;
+    width: 38px;
+    height: 18px;
+    line-height: 16px;
+    text-align: center;
+    border-radius: 2px;
+    border: solid 1px #999999;
+    color: #999999;
+    font-size: 12px;
+}
+
+.note-bottom .main .footer-ad img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 120px;
+}
+
+.note-bottom .main .footer-ad .jump {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.note-bottom .main .seo-recommended-notes{
+    width: 100%;
+
+}
+.note-bottom .main .seo-recommended-notes{
+    margin-bottom: 25px;
+    padding: 0 0 25px;
+    border-bottom: 1px solid #ddd;
+}
+.note-bottom .main .seo-recommended-notes .title{
+    display: block;
+    color: #999;
+    margin-bottom: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 700;
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.note-bottom .main .seo-recommended-notes .title:hover{
+    text-decoration: underline;
+}
+.note-bottom .main .seo-recommended-notes .description{
+    margin-bottom: 12px;
+    font-size: 13px;
+    line-height: 23px;
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.note-bottom .main .seo-recommended-notes .img{
+    float: right;
+}
+.note-bottom .main .seo-recommended-notes .img img{
+    margin: -5px 0 0 15px;
+    width: 150px;
+    height: 120px;
+    border-radius: 6px;
+}
+.note-bottom .main .seo-recommended-notes .avatar{
+    display: inline-block;
+}
+.note-bottom .main .seo-recommended-notes .avatar img{
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.note-bottom .main .seo-recommended-notes .avatar span{
+    font-size: 13px;
+    color: #333;
+    vertical-align: middle;
+}
